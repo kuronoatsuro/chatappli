@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GokuvsFreeza</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 class="page-title">正しい順序でセリフを選ぶと超サイヤ人が生まれるよ</h1>
+
+    <form action="">
+      <p>名前：</p>
+        <select id="userName">
+          <option value="悟空">悟空</option>
+          <option value="フリーザ">フリーザ</option>
+        </select>
+
+      <p>セリフ：</p>
+      <select id="text">
+        <option value="このしつこいくたばりぞこないめ…">このしつこいくたばりぞこないめ…</option>
+        <option value="いいだろう!!!こんどはこっぱみじんにしてやる">いいだろう!!!こんどはこっぱみじんにしてやる</option>
+        <option value="あの地球人のように!!!!">あの地球人のように!!!!</option>
+        <option value="あの地球人のように？…">あの地球人のように？…</option>
+        <option value="クリリンのことか…">クリリンのことか…</option>
+        <option value="クリリンのことかーーーーーっ!!!!!">クリリンのことかーーーーーっ!!!!!</option>
+      </select>
+      <button id="send" type="button">送信</button>
+      <button id="deleteBtn" class="btn btn-delete">全削除</button>  
+    </form>
+    
+    <div id="output"></div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

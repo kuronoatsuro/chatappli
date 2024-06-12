@@ -1,0 +1,26 @@
+html{
+    background-image: url(../img/desktop-wallpaper-planet-namek.jpg); /* 画像のパスを指定 */
+    background-size: cover; /* 画像を全体にフィットさせる */
+    background-repeat: no-repeat; /* 画像の繰り返しを防ぐ */
+    background-position: center; /* 画像の位置を中央に */
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    margin: 0; /* ページの余白をなくす */
+    height: 100vh; /* ビューポートの高さを設定 */
+}
+
+body{
+    font: size 30px;
+    line-height: 1.5;
+    color:#424242;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.page-title{
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
